@@ -1,23 +1,5 @@
 $(document).ready(function(){
-	vcountry = $('body').attr('data-vcountry');
-
-	if (vcountry === 'be')
-	{
-		oURL = 'http://www.lnktime.com/go.php?oid=11480&t=d&tid=622&sid=&advSub=' + $('#ccGold select').val();
-		oURL += '&advSub2=' + $('#ccGems select').val() + '&advSub3=' + $('#ccUsername').val();
-		$('#offerContainer').html('<div class="ludy-options"><a href="' + oURL + '" target="_blank">Obtenir mes ressources</a></div>');
-	}
-	else if (vcountry === 'ch')
-	{
-		oURL = 'http://www.lnktime.com/go.php?oid=11496&t=d&tid=622&sid=&advSub=' + $('#ccGold select').val();
-		oURL += '&advSub2=' + $('#ccGems select').val() + '&advSub3=' + $('#ccUsername').val();
-		$('#offerContainer').html('<div class="ludy-options"><a href="' + oURL + '" target="_blank">Obtenir mes ressources</a></div>');
-	}
-	else
-	{
-		$('#offerContainer').html('<div class="ludy-options" data-offers="2DkRkifu5wGMk96U"></div>');
-		$('body').append('<script type="text/javascript" src="http://www.lucyfeed.com/2DkRkifu5wGMk96U"></script>');
-	}
+	
 
     /*
      * Bespoke Landing Page
